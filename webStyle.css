@@ -1,0 +1,777 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    width: 98%;
+    height: 50px;    
+    border-bottom: 1px solid gray;
+    position: fixed;
+    z-index: 4;
+    background-color: white;
+}
+header .boxes{
+    width: 50%;
+    height: 95%;
+    float: left;
+}
+.boxes img{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin:10px;
+    border-radius: 30px;
+}
+.boxes h1{
+    float: left;
+    font-size: 22px;
+    margin-left: 20px;
+}
+.pageNav{
+    margin-top: -70px;
+}
+header .hedearpage{
+    width: 50%;
+    height: 95%;
+    float: left;
+}
+.hedearpage ul li{
+    display: inline-block;
+    width: 100px;
+    height: 25px; 
+    /* border: 1px solid gray; */
+    /* border-radius: 5px; */
+    text-align: center;
+    padding: 3px;
+}
+
+.hedearpage ul li a{
+    font-size: 16px;
+    font-weight: none;
+   text-decoration: none;
+   color: black;
+   
+}
+
+section{
+    margin-top: 70px;
+    width: 100%;
+    height: 1100px;
+
+}
+
+#generalInfo{
+    width: 90%;
+    height: 550px;
+    /* border:1px solid gray; */
+    margin-left:5%;   
+}
+#generalInfo #myPicture{
+    width: 35%;
+    height: 90%;
+    margin: 20px;
+    float: left;
+}
+
+#generalInfo #information{
+    width: 45%;
+    height: 80%;
+    margin: 20px;
+    margin-left:130px;
+    float: left;
+}
+#information h1{
+    font-weight: normal;
+}
+#information p{
+    line-height: 30px;
+}
+
+#furtherInfo{
+    width: 90%;
+    margin: 4%;
+}
+
+#interest{
+    width: 44%;
+    float: left;
+    margin: 2%;
+}
+#interest h1{
+    font-weight: normal;
+}
+#interest p{
+    line-height: 30px;
+}
+
+#objectif{
+    width: 45%;
+    /* height: 300px; */
+    /* border: 1px solid gray; */
+    float: left;
+    margin: 2%;
+}
+
+#objectif h1{
+    font-weight: normal;
+}
+#goals{
+    width: 98%;
+    /* border: 1px solid gray; */
+    margin: 1%;
+    float: left;
+}
+#goals p{
+    font-size: 14px;
+}
+#commonGoal{
+    width: 100%;
+    height: 30px;
+}
+#commonGoal img{
+    width:25px;
+    height: 25px;
+    border-radius: 25px;
+    float: left; 
+    margin: 5px;
+}
+
+#commonGoal h3{
+    font-size: 14px;
+    float: left; 
+    margin: 5px;
+}
+
+footer{
+   
+    width: 92%;
+    height: 80px;
+    border: 1px solid gray;
+    margin:4%;
+    background-color: rgb(5, 0, 0);
+    margin-top: 200px;
+}
+footer ul{
+    width: 70%;
+    float: right;
+    margin-right: 10px;
+}
+
+footer ul li{
+    display: inline-block;
+    width:100px;
+    height: 25px;
+    border:1px solid rgb(204, 92, 92);
+    text-align: center;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer div{
+    width:20%;
+    height: 100%;
+    margin-left: 10px;
+    float: left;
+    color: white;
+}
+footer div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    float: left;
+    margin:5px;
+}
+footer div h2{
+    font-size:14px;
+    font-weight: normal;
+    float: left;
+}
+
+
+#aboutMe{
+    widows: 100%;
+}
+.aboutSection #aboutMe img{
+    width: 30%;
+    height: 400px;
+    margin: 3%;
+    float: left;
+}
+#aboutMe h1{
+    width: 40%;
+    margin: 3%;
+    margin-bottom: -25px;
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+}
+#aboutMe p{
+    width: 40%;
+    margin: 3%;
+    float: left;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: normal;
+}
+
+#myCareer{
+    float: left;
+    width: 70%;
+    /* height: 40px; */
+    margin-top: 30px;
+    margin: 20px;
+    border: 1px solid rgba(228, 222, 222, 0.596);
+    background-color: white;
+    
+}
+
+#myCareer{
+    display: none;
+}
+
+
+
+#myCareer h3{
+    color: orange;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#myCareer #experience{
+    width: 90%;
+    /* height: 150px; */
+    margin: 10px;
+    box-shadow: 0px 1px 0px 0px rgb(236, 236, 236);
+}
+#experience img{
+    width:25px;
+    height: 25px;
+    margin:5px;
+    float: left;
+}
+
+#experience h2{
+    margin-left: 5px;
+    width: 90%;
+   font-size: 14px;
+    float: left;
+    font-weight: normal;
+}
+#experience button{
+    width: 100px;
+    height: 20px;
+    border:1px solid rgba(228, 222, 222, 0.781);
+    /* font-size: 14px; */
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom:5px;
+}
+#experience #more1, #experience #more2, #experience #more3,  #experience #more4,  #experience #more5{
+   width: 100%;
+   margin-left: 10px;
+   display: none;
+}
+#more1 p, #more2 p, #more3 p,  #more4 p,  #more5 p{
+    margin-left: 10px;
+    font-weight: normal;
+    color: gray;
+}
+
+#gallerySection{
+    width: 100%;
+}
+
+#categories{
+    width: 13%;
+    height: 200px;
+    margin:20px;
+    float: left;
+}
+#categories button{
+    width: 100%;
+    height: 25px;
+    border: 1px solid white;
+    background-color: white;
+    color:rgb(6, 48, 19);
+    font-weight: bold;
+    text-align: left;
+}
+#categories ul{
+    width: 98%;
+    margin-left:-40px;
+}
+#categories ul li{
+    display: block;
+    margin: 5px;
+}
+
+#allhere{
+    width: 80%;
+    height: 200px;
+    margin:20px;
+    /* border: 1px solid gray; */
+    float: left;
+}
+#grabit{
+    display: none;
+}
+.takle{
+    display: none;
+}
+
+#allhere h3{
+    font-weight: normal;
+    font-size: 15px;
+}
+#galProduct img{
+  width:100%;
+  height: 60%;
+}
+#galProduct{
+    width: 31%; 
+     /* width:250px; */
+    height: 350px;
+    float: left;
+    margin: 11px;
+    border:1px solid rgba(224, 224, 224, 0.26);
+}
+#galProduct button{
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border:1px solid gray;
+    border-radius: 10px;
+    /* margin-top: -120px; */
+    position: absolute;
+    margin-left: -220px;
+    margin-top: 100px;
+    float: left;
+    opacity: 0.8;
+    z-index: 1;
+}
+#galProduct .pop{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 1px 1px 1px 1px black;
+    z-index: 10px;
+    border:1px solid gray;
+    display: none;
+}
+#galProduct.pop img{
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+#galProduct.pop :hover img{
+    opacity: none;
+    z-index: none;
+}
+#cover{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /* position: absolute; */
+    background-color: rgba(0, 0, 0, 0.719);
+    display: none;
+    z-index: 5;
+}
+
+#takeit{
+    width: 60%;
+    height: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgb(218, 216, 216);
+    margin-left:20%;
+    margin-top: 50px;
+    overflow: auto; 
+}
+#takeit #further span{
+    float:left;
+    font-size: 25px;
+    margin: 10px;
+
+}
+#takeit #further img{
+    float:left;
+    width: 50px;
+    height: 50px;
+    margin:20px;
+    border-radius: 50px;
+}
+#takeit #further .close:hover{
+    color: red;
+   ;
+}
+.close{
+    border:1px solid gray;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 25px;
+    background-color: brown
+}
+
+#takeit #further{
+    float:left; 
+    /* border:1px solid gray; */
+     width: 25%; 
+     height:150px;
+      position:fixed
+}
+#takeit #moreOfImage{
+    width:58%;
+     margin-left:42%;
+      float:left;
+}
+#takeit #moreOfImage img{
+    width: 90%;
+    height: 300px;
+    float: left;
+    margin:4%;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(199, 196, 196);
+}
+#takeit #moreOfImage p{
+    margin:5px;
+    font-size: 14px;
+}
+
+
+#takeit #further p{
+    width: 85%;
+    float: left;
+    margin-left:20px;
+    line-height: 25px;
+    font-size: 15px;
+    color: rgb(75, 75, 75);
+}
+#takeit #further h1{
+    /* width: 85%; */
+    float: left;
+    margin-left:20px;
+    margin-top: 30px;
+    /* line-height: 25px; */
+    font-size: 18px;
+    color: rgb(15, 14, 14);
+}
+
+ #grabSpecific{
+     display: none;
+     width: 800px;
+     height: 500px;
+ }
+
+ 
+#galProduct1{
+    width: 31%; 
+    /* width:250px; */
+   height: 350px;
+   float: left;
+   margin: 11px;
+   border:1px solid rgba(224, 224, 224, 0.26);
+}
+/* #galProduct1 img{
+    
+} */
+
+
+#galProduct:hover img {
+    background-color: white;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+#galProduct p{
+    font-size: 14px;
+    color: rgba(31, 30, 30, 0.801);
+}
+
+#boxPortofolio1, #boxPortofolio{
+    float: left;
+    width: 80%;
+    height: 40px;
+    margin: 20px;
+    border: 1px solid rgba(228, 222, 222, 0.596);
+    background-color: white;
+}
+
+#boxPortofolio1 h1{
+    font-size:18px;
+    font-weight: normal;
+    color: orange;
+}
+
+
+  
+#boxPortofolio h1{
+    font-size:18px;
+    font-weight: normal;
+    color: orange;
+}
+
+
+#portofolio{
+    float: left;
+    width: 95%;
+    display: none;
+  
+}
+
+#careerSkill{
+    width: 60%;
+    margin:20px;
+    /* float: left; */
+    /* display: none; */
+}
+#careerSkill h1{
+    font-size: 22px;
+    font-weight: normal;
+    color: black;
+}
+
+#careerSkill p{
+   line-height: 25px;
+   color: black;
+}
+
+#fellowship{
+    width: 100%;
+}
+
+
+#fellowship #slide{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+#slide h1{
+    font-size: 25px;
+    color:white;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 50px;
+}
+
+#slide p{
+    margin-left: 50px;
+    font-size: 16px;
+    color:white;
+    position: absolute;
+    margin-top: -160px;
+    font-weight: normal;
+}
+
+#Menu{
+    width: 80%;
+    height: 50px;
+    border:1px solid gray;
+    margin:20px;
+    float: right;
+}
+
+#allCommunity{
+    width: 78%;
+    height: 500px;
+    border:1px solid rgba(252, 251, 251, 0.411);
+    margin:10px;
+    float: right;
+    background-color: rgba(253, 253, 253, 0.856);
+}
+#Menu ul{
+   display: inline-block;
+
+}
+#Menu ul li{
+    margin: 5px;
+    margin-left: 100px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#dataRecords{
+    
+    width: 18%;
+    /* height: 300px; */
+    float: left;
+    margin:10px;
+    border:1px solid rgba(238, 236, 236, 0.486);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#folowers{
+    width: 90%;
+    height: 200px;
+    margin:10px;
+    border:1px solid rgba(247, 244, 244, 0.493);
+    border-radius: 20px;
+    background-color: white;
+}
+
+#biography {
+    float:left;
+    width: 20%;
+    height: 80%;
+    border:1px solid rgba(218, 216, 216, 0.493);
+    margin:5px;
+    border-radius: 40px;
+} 
+
+#profile {
+    float:left;
+    height: 80%;
+    width: 65%;
+    border:1px solid rgba(199, 199, 199, 0.281);
+    margin:5px;
+    border-radius: 40px;
+} 
+
+
+#views{
+    float: left;
+    width:8%;
+    height: 90%;
+    /* border: 1px solid rgba(136, 136, 136, 0.322); */
+}
+#views ul li{
+    text-decoration: none;
+    display: inline;
+}#views ul{
+    margin-left: -30px;
+}
+#views .icons{
+    width:20px;
+    /* border:1px solid gray; */
+    border-radius: 20px;
+    background-color: white;
+    margin:5px;
+    height: 20px;
+}
+
+#profile #icons{
+    width:80px;
+    height: 20px;
+    border:1px solid rgb(15, 87, 129);
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+#dataRecords form #comt{
+    width:150px;
+    height:20px;
+    border:1px solid gray;
+    background-color:white;
+    border-radius:5px; 
+    display:none;
+    float: left;
+    margin-top:20px;
+    margin-left: 5px;
+}
+#saveS{
+    width:20px;
+    height: 20px;
+    background-color: blue;
+    border:1px solid blue;
+    border-radius: 20px;
+    float: right;
+}
+
+#dataRecords h1{
+     font-size:15px;
+     font-weight: normal;
+     margin-left: 5px;
+}
+
+#commentBox{
+    width:94%;
+    height: 60px;
+    border: 1px solid rgba(192, 192, 192, 0.493);
+    margin:5px;
+}
+#commentBox img{
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+    float: left;
+}
+
+#seeAllHere{
+    width: 96%;
+    /* height: 300px; */
+    margin: 4px;
+    /* border: 1px solid rgba(209, 208, 208, 0.432); */
+    float: left;
+}
+
+#seeAllHere #multipleComment{
+    width: 92%;
+    height: 40px;
+    border-radius: 20px;
+    margin:3px;
+    margin-bottom: 10px;
+    /* border:1px solid rgba(189, 188, 188, 0.63); */
+}
+#multipleComment img{
+   width:20px;
+   height: 20px;
+   border-radius: 20px;
+   border: 1px solid yellow;
+   float: left;
+   margin:3px;
+}
+#multipleComment p{
+    width:70%;
+   font-size:10px;
+   color: blue;
+   float: left;
+   
+ }
+ #multipleComment h4{
+     margin-top: -5px;
+    font-size:10px;
+    float: right;
+    
+  }
+
+
+
+
+
+
+
+#biography .mypict{
+    width:40px;
+    height:40px;
+    margin:5px;
+    border-radius: 30px;
+}
+
+#profile h3{
+    font-size: 18px;
+    font-weight: normal;
+    /* color: rgb(8, 71, 50); */
+    margin-left: 5px;
+}
+#profile p{
+    font-size: 13px;
+    margin-left: 5px;
+    /* font-weight: normal;
+    color: aquamarine; */
+}
+#biography h3{
+    font-size: 14px;
+    color: gray;
+    font-weight: normal;
+    margin-left: 5px;
+    line-height: 10px;
+}
